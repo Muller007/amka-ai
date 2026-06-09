@@ -260,6 +260,6 @@ If AMKA resonates with you:
 
 *"Wake up your money."*
 
-**AMKA** · Built in South Africa · For Africa
+**AMKA** · Built in Africa · For Africa
 
 </div>
