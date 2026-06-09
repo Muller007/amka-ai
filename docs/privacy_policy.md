@@ -1,35 +1,75 @@
-# Privacy Policy – Smart Living AI
-
-## Overview
-We respect your privacy and are committed to protecting your data.
+# AMKA — Privacy Policy
+*Last updated: June 2026*
 
 ---
 
-## Data Collected
-- Phone number
-- Messages sent to the system
-- Financial transaction data
+## 1. Who We Are
+
+AMKA ("we", "us", "our") is an AI-powered financial assistant built to serve Africa's informal economy workers. We are committed to protecting your privacy and handling your data with transparency and respect.
 
 ---
 
-## How We Use Data
-- To provide financial tracking
-- To improve user experience
-- To generate insights
+## 2. What Data We Collect
+
+| Data Type | Purpose | Retention |
+|-----------|---------|-----------|
+| WhatsApp phone number | User identification | Until account deletion |
+| Transaction messages | Financial tracking | Until account deletion |
+| Transaction amounts | Profit/loss calculation | Until account deletion |
+| Language preference | Personalisation | Until account deletion |
+| Voice note transcriptions | Multilingual support | 24 hours, then deleted |
+| Usage timestamps | Insights generation | Until account deletion |
+
+**We do NOT collect:**
+- Your name (unless you tell us)
+- Your location
+- Your contacts
+- Any data outside of your AMKA conversations
 
 ---
 
-## Data Protection
-- We do not sell user data
-- Data is stored securely
+## 3. How We Use Your Data
+
+- To record and calculate your financial transactions
+- To generate your business summaries and insights
+- To produce your AMKA Financial Report (on request only)
+- To improve AMKA's NLP and response quality (anonymised only)
 
 ---
 
-## User Rights
-- Users can stop using the service anytime
-- Users can request data deletion (future feature)
+## 4. Data Sharing
+
+We **never sell your data**. We share data only in these circumstances:
+
+- **With your explicit consent:** When you request a financial report to share with a lender
+- **Anonymised aggregate data:** With development partners and policymakers (no individual data is identifiable)
+- **Legal requirements:** If required by law in your jurisdiction
 
 ---
 
-## Contact
-Smart Living AI Team
+## 5. Your Rights
+
+You have the right to:
+- **Access** all data AMKA holds about you (message "my data")
+- **Delete** all your data at any time (message "delete my account")
+- **Export** your transaction history as a report
+- **Correct** any incorrectly recorded transaction
+
+---
+
+## 6. Security
+
+- All data is encrypted at rest (AES-256)
+- All data in transit uses TLS 1.3
+- Database credentials are rotated regularly
+- No financial data is stored in plain text
+
+---
+
+## 7. Contact
+
+Questions about your privacy? Open an issue on GitHub or contact us through WhatsApp.
+
+---
+
+*AMKA — Your data belongs to you.*
