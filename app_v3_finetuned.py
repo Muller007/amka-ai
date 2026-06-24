@@ -5,7 +5,7 @@ AMKA WhatsApp Financial Assistant - MVP v3 (Fine-tuned AI)
 
 from flask import Flask, request, jsonify
 from twilio.rest import Client
-from ai_engine_v3 import AMKAFinetuneEngine
+from ai_engine_v3_finetuned import AMKAFinetuneEngine
 import os
 from datetime import datetime
 import json
@@ -14,13 +14,15 @@ from collections import defaultdict
 # Initialize Flask app
 app = Flask(__name__)
 
-# Twilio credentials (set these as environment variables)
-TWILIO_ACCOUNT_SID = os.getenv('TWILIO_ACCOUNT_SID', 'your_sid')
-TWILIO_AUTH_TOKEN = os.getenv('TWILIO_AUTH_TOKEN', 'your_token')
-TWILIO_WHATSAPP_NUMBER = os.getenv('TWILIO_WHATSAPP_NUMBER', 'whatsapp:+1234567890')
 
-# Initialize Twilio client
-twilio_client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+TWILIO_ACCOUNT_SID = os.getenv('TWILIO_ACCOUNT_SID')
+TWILIO_AUTH_TOKEN = os.getenv('TWILIO_AUTH_TOKEN')
+TWILIO_WHATSAPP_NUMBER = os.getenv('TWILIO_WHATSAPP_NUMBER')
 
 # Initialize AI Engine with fine-tuned model
 ai_engine = AMKAFinetuneEngine(use_fallback=True)
